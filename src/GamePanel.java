@@ -45,7 +45,7 @@ public class GamePanel extends JPanel implements ActionListener {
         timer = new Timer(DELAY, this);
         startGame();
     }
-
+        // Bắt đầu game
     private void startGame() {
         newApple();
         snakeX.clear();
